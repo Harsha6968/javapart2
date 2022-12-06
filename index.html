@@ -3,10 +3,18 @@
         <script src="./one.js" type="text/javascript"></script>
     </head>
     <body>
-        <button ondblclick="display()" style=background-color:red >test</button>
-        <button onclick="display()" style=background-color:aqua >test</button>
-        <button onmouseover="display()" style=background-color:blueviolet >test</button>
-        <button onmouseout="display()" style=background-color:chartreuse >test</button>
-        <button onfocus="display()" style=background-color:red >test</button>
+        <button  style=background-color:red ondblclick="display()" id='abc'>test</button><br>
+        <button  style=background-color:aqua onclick="mul()" id='xyz'>test</button><br>
+        <button   style=background-color:blueviolet onmouseover="sub()" id='pqr'>test</button><br>
+        <button   style=background-color:chartreuse onmouseout="add()" id='lmn' >test</button><br>
+        <form>
+            <label>onfocus</label>
+            <input style=background-color:azure type="text" onfocus="changecolor()" id="cde"  />
+            <label>onblur</label>
+            <input type="text"  id="abc" onblur="changeCase()"/>
+        
+        <label> Form- blur Event - Ex</label>
+        <input type="text" id="uname" onblur="changeCase()" />
+    </form>
     </body>
-</html>  
+</html>
