@@ -13,14 +13,14 @@ document.getElementById('lmn').style.backgroundColor='green'
 }
 function changecolor(){
 document.getElementById('cde').style.backgroundColor='violet'
-
 }
 function changeCase(){
-  let name=document.getElementById('abc').value
+  let name = document.getElementById('abc').value;
+  console.log(name)
   document.getElementById('abc').value = name.toUpperCase()
 }
 
-function changeCase() {
+function Case() {
     let name = document.getElementById('uname').value;
     console.log(name)
     //document.getElementById('uname').value = "gm"
